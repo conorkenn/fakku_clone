@@ -3,7 +3,6 @@ import React from "react";
 
 const Card = ({url, title, author, cover}) => {
     return(
-
         <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
             <div className="overflow-hidden">
 
@@ -19,14 +18,9 @@ const Card = ({url, title, author, cover}) => {
                 </h1>
             </header>
             <p className="flex justify-center">{author}</p>
-
-
         </div>
     </div>
-
-
     );
-
 }
 
 export default Card;

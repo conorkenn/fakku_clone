@@ -1,4 +1,3 @@
-import React from "react";
 import HeaderLink from "./HeaderLink";
 
 const HeaderLinks = () =>{

@@ -4,5 +4,4 @@ const SubHeader = (props) => {
     );
 };
 
-
 export default SubHeader;

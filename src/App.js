@@ -3,7 +3,6 @@ import {Card, Header, SubHeader, Footer, CardGrid} from './components/index'
 import newBooks from './assets/newBooks';
 import popularBooks from './assets/popularBooks';
 
-
 const newBooksToDisplay = newBooks.map((book)=>{
   return(
     <Card {...book} />
