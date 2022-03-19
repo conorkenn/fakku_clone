@@ -7,7 +7,7 @@ const Card = (props) => {
         <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
             <div className="overflow-hidden">
 
-            <a href="#">
+            <a href={props.url}>
                 <img alt={props.title} class="flex" src={props.cover}/>
             </a>          
 
