@@ -1,0 +1,16 @@
+export { default as Contact } from './Contact';
+export { default as Doujin } from './Doujin';
+export { default as Forums } from './Forums';
+export { default as Games } from './Games';
+export { default as Home } from './Home';
+export { default as Jobs } from './Jobs';
+export { default as Login } from './Login';
+export { default as Manga } from './Manga';
+export { default as Merch } from './Merch';
+export { default as NewReleases } from './NewReleases';
+export { default as Privacy } from './Privacy';
+export { default as Register } from './Register';
+export { default as Support } from './Support';
+export { default as Tags } from './Tags';
+export { default as Terms } from './Terms';
+export { default as Unlimited } from './Unlimited';
