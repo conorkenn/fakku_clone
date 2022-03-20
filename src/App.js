@@ -1,13 +1,13 @@
 import React from 'react';
 import {Header, Footer} from './components/index'
-import Home from './pages/Home';
+import Routing from './routing/Routing';
 
 
 function App() {
   return (
     <React.Fragment>
       <Header />
-      <Home />
+        <Routing />
       <Footer />
     </React.Fragment>
   );
