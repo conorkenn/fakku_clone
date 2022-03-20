@@ -9,5 +9,5 @@ I am not associated with Fakku, maybe one day!
 
 ## Screenshots
 Home Screen
-![App Screenshot](screenshots\fakku_clone.png)
+![App Screenshot](screenshots/fakku_clone.png)
 
