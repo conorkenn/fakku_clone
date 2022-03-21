@@ -26,9 +26,6 @@ const Home = () =>{
                 <CardGrid>
                     {newBooksToDisplay}
                 </CardGrid>
-                <CardGrid>
-                    {newBooksToDisplay}
-                </CardGrid>
         </React.Fragment>
     );
 }
