@@ -3,7 +3,7 @@ import React from "react";
 
 const Card = ({url, title, author, cover}) => {
     return(
-        <div className="my-4 px-1 w-full basis-1/5 drop-shadow-lg">
+        <div className="my-4 px-1 w-full basis-1/4 drop-shadow-lg">
             <div className="overflow-hidden">
 
             <a href={url}>

@@ -5,3 +5,8 @@ export { default as AlternateSubHeader } from './AlternateSubHeader';
 export { default as Footer } from './footer/Footer';
 export { default as CardGrid } from './CardGrid';
 export { default as HeroAd } from './HeroAd';
+export { default as SmallerBasisCard } from './SmallerBasisCard';
+export { default as Checkbox } from './checkbox/Checkbox';
+export { default as CheckboxList } from './checkbox/CheckboxList';
+export { default as PopularCheckboxList } from './checkbox/PopularCheckboxList';
+export { default as DropDown } from './DropDown';
