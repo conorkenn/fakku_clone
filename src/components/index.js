@@ -1,12 +1,14 @@
 export { default as Header } from './header/Header';
-export { default as Card } from './Card';
+export { default as Card } from './card/Card';
 export { default as SubHeader } from './SubHeader';
 export { default as AlternateSubHeader } from './AlternateSubHeader';
 export { default as Footer } from './footer/Footer';
-export { default as CardGrid } from './CardGrid';
+export { default as CardGrid } from './card/CardGrid';
 export { default as HeroAd } from './HeroAd';
-export { default as SmallerBasisCard } from './SmallerBasisCard';
+export { default as SmallerBasisCard } from './card/SmallerBasisCard';
 export { default as Checkbox } from './checkbox/Checkbox';
 export { default as CheckboxList } from './checkbox/CheckboxList';
 export { default as PopularCheckboxList } from './checkbox/PopularCheckboxList';
+export { default as PlatformsCheckboxList } from './checkbox/PlatformsCheckboxList';
 export { default as DropDown } from './DropDown';
+export { default as GameCard } from './card/GameCard';

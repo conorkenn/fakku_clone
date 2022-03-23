@@ -6,8 +6,8 @@ const CheckboxList = () => {
     return(
         <div>
             <ul>
-                {tags.sort().map(item =>(
-                    <li key={item.title}> 
+                {tags.map(item =>(
+                    <li key={item.id}> 
                     <Checkbox tag={item.title} />
                     </li>
                 ))}
