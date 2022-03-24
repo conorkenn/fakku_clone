@@ -1,6 +1,20 @@
+import { CardGrid, SmallerBasisCard, UnlimitedHero } from "../components";
+import newBooks from "../assets/newBooks";
+
+const newBooksToDisplay = newBooks.map((book) =>{
+    return(
+      <SmallerBasisCard {...book} />
+    );
+  });
+
 const Unlimited = () => {
     return(
-        <h1>Unlimited</h1>
+        <div>
+            <UnlimitedHero />
+            <CardGrid>
+                {newBooksToDisplay}
+            </CardGrid>
+        </div>
     );
 }
 

@@ -12,3 +12,4 @@ export { default as PopularCheckboxList } from './checkbox/PopularCheckboxList';
 export { default as PlatformsCheckboxList } from './checkbox/PlatformsCheckboxList';
 export { default as DropDown } from './DropDown';
 export { default as GameCard } from './card/GameCard';
+export { default as UnlimitedHero} from './UnlimitedHero';
