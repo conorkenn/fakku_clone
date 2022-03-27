@@ -11,7 +11,7 @@ const Header = () =>{
                 <div className="ml-4 flex  h-14 w-18 pl-4">
                     <HeaderLogo />
                     <HeaderLinks />
-                    <div className="flex pl-40">
+                    <div className="flex pl-80">
                         <HeaderIcons />
                         <HeaderButtons /> 
                     </div>
