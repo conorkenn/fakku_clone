@@ -31,10 +31,10 @@ export default [
         cover: 'https://t.fakku.net/images/manga/b/bunny-bop-bop-english_1638360751/thumbs/001.thumb.jpg',
     },
     {
-        url: 'https://www.fakku.net/hentai/time-for-work-english',
-        title: 'Time for Work',
-        author: 'Aiya',
-        cover: 'https://t.fakku.net/images/manga/t/time-for-work-english_1626200559/thumbs/002.thumb.jpg',
+        url: 'https://www.fakku.net/hentai/lavender-maiden-english',
+        title: 'Lavender Maiden',
+        author: 'Hinasaki Yo',
+        cover: 'https://t.fakku.net/images/manga/l/lavender-maiden-english_1647038479/thumbs/001.thumb.jpg',
     },
     {
         url: 'https://www.fakku.net/hentai/snow-thaw-glass-english',

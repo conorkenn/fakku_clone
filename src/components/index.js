@@ -14,3 +14,4 @@ export { default as DropDown } from './DropDown';
 export { default as GameCard } from './card/GameCard';
 export { default as UnlimitedHero} from './UnlimitedHero';
 export { default as SideScrollingContainer } from './SideScrollingContainer';
+export { default as SideScrollerCard } from './card/SideScrollerCard';

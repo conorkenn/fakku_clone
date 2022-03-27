@@ -1,10 +1,10 @@
 
 export default [
     {
-        url: 'https://www.fakku.net/hentai/lavender-maiden-english',
-        title: 'Lavender Maiden',
-        author: 'Hinasaki Yo',
-        cover: 'https://t.fakku.net/images/manga/l/lavender-maiden-english_1647038479/thumbs/001.thumb.jpg',
+        url: 'https://www.fakku.net/hentai/book-of-plain-girl-ass-4-english',
+        title: 'Book of Plain Girl Ass 4',
+        author: 'Namaniku ATK',
+        cover: 'https://t.fakku.net/images/manga/b/book-of-plain-girl-ass-4-english_1647878961/thumbs/001.thumb.jpg',
     },
     {
         url: 'https://www.fakku.net/hentai/servile-urara-chan-english',

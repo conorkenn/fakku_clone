@@ -1,22 +1,10 @@
 
 import { useRef } from "react";
 import {AiFillLeftCircle, AiFillRightCircle} from 'react-icons/ai';
-import newBooks from "../assets/newBooks";
-import SideScrollerCard from "./card/SideScrollerCard";
 import SideScrollerCardGrid from "./card/SideScrollerCardGrid";
 
 
-const popularBooksToDisplay = newBooks.map((book) =>{
-    return(
-        <div className="mr-3">
-                <SideScrollerCard {...book} />
-        </div>
-      
-    );
-  });
-
-
-const SideScrollingContainer = () => {
+const SideScrollingContainer = ({books}) => {
     const ref = useRef(null);
 
     const scroll = (scrollOffset) => {
@@ -36,7 +24,7 @@ const SideScrollingContainer = () => {
             <div className="flex flex-nowrap shrink-0 overflow-x-scroll mx-2
                         scrollbar scrollbar-thumb-red-700 scrollbar-track-gray-100 scroll-smooth" ref={ref}>
                     
-                    <SideScrollerCardGrid>{popularBooksToDisplay}</SideScrollerCardGrid>
+                    <SideScrollerCardGrid>{books}</SideScrollerCardGrid>
             </div>
         </div>
     );

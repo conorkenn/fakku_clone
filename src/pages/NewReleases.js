@@ -1,25 +1,40 @@
 import React from "react";
-import { AlternateSubHeader, SideScrollingContainer } from "../components";
+import { AlternateSubHeader, SideScrollingContainer, SideScrollerCard } from "../components";
+import newBooks from "../assets/newBooks";
+import moreBooks from "../assets/moreBooks";
+
+  
+  const mapbooks = (books) => {
+      return books.map((book) =>{
+        return(
+            <div className="mr-3">
+                    <SideScrollerCard {...book} />
+            </div>
+        );
+      })
+  }
+
+  
 
 const NewReleases = () => {
     return(
         <React.Fragment>
             <AlternateSubHeader header={"Latest FAKKU Unlimited Chapters"} />
-            <SideScrollingContainer />
+            <SideScrollingContainer books ={mapbooks(newBooks)}/>
             <AlternateSubHeader header={"Latest Magazine Releases"} />
-            <SideScrollingContainer />
+            <SideScrollingContainer books ={mapbooks(moreBooks)}/>
             <AlternateSubHeader header={"Popular Hentai Chapters"} />
-            <SideScrollingContainer />
+            <SideScrollingContainer books ={mapbooks(moreBooks)}/>
             <AlternateSubHeader header={"Vanilla Chapters with a Dominant Female"} />
-            <SideScrollingContainer />
+            <SideScrollingContainer books ={mapbooks(moreBooks)}/>
             <AlternateSubHeader header={"Popular Color Hentai Chapters"} />
-            <SideScrollingContainer />
+            <SideScrollingContainer books ={mapbooks(moreBooks)}/>
             <AlternateSubHeader header={"Vanilla Chapters with a Tsundere"} />
-            <SideScrollingContainer />
+            <SideScrollingContainer books ={mapbooks(moreBooks)}/>
             <AlternateSubHeader header={"Original Western Hentai Chapters"} />
-            <SideScrollingContainer />
+            <SideScrollingContainer books ={mapbooks(moreBooks)}/>
             <AlternateSubHeader header={"Popular Non-H Chapters"} />
-            <SideScrollingContainer />
+            <SideScrollingContainer books ={mapbooks(moreBooks)}/>
         </React.Fragment>
     );
 }
