@@ -1,6 +1,6 @@
 import React from "react";
-import { AlternateSubHeader } from "../components";
-import SideScrollingContainer from "../components/SideScrollingContainer";
+import { AlternateSubHeader, SideScrollingContainer } from "../components";
+
 const NewReleases = () => {
     return(
         <React.Fragment>

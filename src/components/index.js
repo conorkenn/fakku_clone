@@ -13,3 +13,4 @@ export { default as PlatformsCheckboxList } from './checkbox/PlatformsCheckboxLi
 export { default as DropDown } from './DropDown';
 export { default as GameCard } from './card/GameCard';
 export { default as UnlimitedHero} from './UnlimitedHero';
+export { default as SideScrollingContainer } from './SideScrollingContainer';

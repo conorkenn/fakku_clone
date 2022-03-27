@@ -14,9 +14,11 @@ const popularBooksToDisplay = newBooks.map((book) =>{
 
 const SideScrollingContainer = () => {
     return(
-        <div className="flex flex-nowrap shrink-0 overflow-scroll">
-            <SideScrollerCardGrid>{popularBooksToDisplay}</SideScrollerCardGrid>
-            
+        <div className="flex flex-nowrap shrink-0 overflow-x-scroll mx-16 
+       scrollbar scrollbar-thumb-red-700 scrollbar-track-gray-100">
+
+                <SideScrollerCardGrid>{popularBooksToDisplay}</SideScrollerCardGrid>
+
         </div>
     );
 }
